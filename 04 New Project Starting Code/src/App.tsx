@@ -1,5 +1,14 @@
+import Input from "./components/Input";
+
 function App() {
-  return <h1>Let's get started!</h1>;
+  const Comp = 'input'
+  return (
+    <>
+      <Input label="Name" type="text" id='name'></Input>
+      <Input label="Age" type="number" id='age'></Input>
+      <Comp />
+    </>
+  );
 }
 
 export default App;
